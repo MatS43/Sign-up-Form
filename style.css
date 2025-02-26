@@ -1,11 +1,40 @@
+@font-face{
+    font-family: Norse;
+    src: 
+    url(Fonts/Norse-Bold.otf);
+}
 body{
     margin: 0;
 }
 .left-img{
-    width: 37.5%;
+    width: 450px;
     height: 100%;
     display: block;
 }
 .container{
     display: flex;
+}
+footer{  
+    width: 450px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 650px;
+    font-family: helvetica,sans-serif;
+}
+.Odin-line{
+    width: 450px;
+    background-color:rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top:120px;
+    text-align: center;
+}
+.hero{
+    width: 60px;
+    height: 80px;
+}
+#Odin-span{
+    font-family: Norse;
+    font-size: 80px;
+    color:rgb(255, 255, 255)
 }
